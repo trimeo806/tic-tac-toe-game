@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Board from "./Board";
-import Square from "./Square";
+// import Square from "./Square";
 
 function Game() {
   const [squares, setSquares] = useState(Array(9).fill(null));
